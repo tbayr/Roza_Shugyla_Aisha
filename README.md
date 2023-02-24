@@ -10,10 +10,13 @@ logout
 exit
 
 Task2:
-ping 142.250.180.110
+sudo apt-get install network-manager
+ip link show
+ping google.com
 proxychains curl https://moodle.astanait.edu.kz/ -v
-ping youtube.com
 ifconfig 
+ping youtube.com
+
 
 Task3:
 apt-get install build-essential linux-headers-$(uname -r)
